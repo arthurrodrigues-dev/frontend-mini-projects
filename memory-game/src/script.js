@@ -1,6 +1,5 @@
 const _cards = document.querySelectorAll('.card');
 const _restart = document.querySelector('.restart')
-let cardsFliped = [];
 
 document.addEventListener('DOMContentLoaded', () => {
     shuffle();
@@ -10,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function eventListeners() {
     _restart.addEventListener('click', () => restartGame());
     
+    let cardsFliped = [];
     _cards.forEach(card => {
         card.addEventListener('click', () => {
             card.classList.toggle('active');
