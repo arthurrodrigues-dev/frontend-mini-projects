@@ -192,6 +192,12 @@ img {
     transform: translateY(-15px);
 }
 
+/* Features */
+.features-head img {
+    width: 200px;
+    justify-self: flex-end;
+}
+
 /* Footer */
 
 .footer .social a {
@@ -231,7 +237,7 @@ img {
 
 @media (max-width: 500px) {
     .navbar {
-        height: 110px;
+        height: 110px; 
     }
 
     .navbar .flex {
