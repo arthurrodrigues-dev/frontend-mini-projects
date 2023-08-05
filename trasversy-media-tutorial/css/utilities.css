@@ -59,6 +59,16 @@
     color: #333;
 }
 
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+    color: #fff;
+}
+
+
 /* Text sizes */
 
 .lead {
