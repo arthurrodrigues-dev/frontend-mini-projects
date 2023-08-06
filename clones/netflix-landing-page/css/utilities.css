@@ -1,0 +1,19 @@
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 6px 16px;
+    background-color: #E50914;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
