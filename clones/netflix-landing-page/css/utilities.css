@@ -1,5 +1,6 @@
 .container {
     max-width: 1100px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -11,7 +12,7 @@
 
 .btn {
     padding: 6px 16px;
-    background-color: #E50914;
+    background-color: var(--btn-background);
     color: #fff;
     font-weight: bold;
     border-radius: 5px;
