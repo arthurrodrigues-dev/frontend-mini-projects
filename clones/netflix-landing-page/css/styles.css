@@ -126,16 +126,6 @@ nav .language {
     height: 500px;
 }
 
-.section .container {
-    border: 2px solid blue;
-}
-
-.section-1 {
-    position: relative;
-    border: 3px solid red;
-    height: 520px;
-}
-
 /* Section 1 ad */
 
 .section-1 .ad {
@@ -171,4 +161,32 @@ nav .language {
     cursor: pointer;
     color: var(--more-color);
     text-decoration: underline;
+}
+
+/* Section 1 */
+
+.section-1 {
+    position: relative;
+    border: 3px solid red;
+    height: 520px;
+}
+
+.section-1 .container {
+    height: 100%;
+    padding: 20px;
+}
+
+.section-1 .container img {
+    width: 470px;
+}
+
+/* Section 1 main text */
+
+.section-1 .container .text-content h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.section-1 .container .text-content p {
+    font-size: 1.6rem;
 }
