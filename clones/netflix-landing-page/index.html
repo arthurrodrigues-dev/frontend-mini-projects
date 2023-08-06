@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/utilities.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Netflix Clone - arthurrodrigues-dev</title>
 </head>
 <body>
 
     <div class="header">
         <div class="container">
-            <nav class="flex">
+            <nav class="navbar flex">
                 <img src="assets/images/netflix-logo.png" alt="">
                 <div>
                     <select class="language">
@@ -23,6 +24,23 @@
                     <button class="btn">Entrar</button>
                 </div>
             </nav>
+
+            <div class="header-content flex">
+
+                <div class="header-text">
+                    <h1>Filmes, séries e muito mais, sem limites</h1>
+                    <p>Assista onde quiser. Cancele quando quiser.</p>
+                    <p>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+                </div>
+
+                <div class="header-input flex">
+                    <input type="email" name="email" placeholder="Email">
+                    <button class="btn">Vamos lá 
+                        <i class='bx bx-chevron-right'></i>
+                    </button>
+                </div>
+
+            </div>
         </div>
     </div>
 </body>

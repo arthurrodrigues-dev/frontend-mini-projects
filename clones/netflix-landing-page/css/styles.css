@@ -15,6 +15,26 @@ img {
     width: 100%;
 }
 
+/* Navbar */
+
+.header .container .navbar.flex {
+    justify-content: space-between;
+}
+
+nav div {
+    display: inherit;
+    gap: 30px;
+}
+
+nav .language {
+    padding: 6px 16px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+}
+
 /* Header */
 
 .header {
@@ -32,24 +52,67 @@ img {
 
 .header .container {
     padding: 20px;
+    /* border: 2px solid magenta; */
+    height: 100%;
 }
 
-.header .container .flex {
+/* Header main content */
+
+.header-content {
+    /* border: 2px solid red; */
+    height: 90%;
+}
+
+.header-content .header-text {
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+}
+
+/* Header text */
+
+.header-content .header-text h1{
+    font-size: 3rem;
+}
+
+.header-content .header-text > *:nth-child(2) {
+    font-size: 1.5rem;
+}
+
+.header-content .header-text > *:nth-child(3) {
+    font-size: 1.25rem;
+}
+
+/* Header input */
+
+.header-input {
+    /* border: 2px solid blue; */
+    width: 59%;
+}
+
+.header-input input {
+    width: 69%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 0 15px;
+    background-color: #171717c3;
+    font-weight: bold;
+    outline: .1px solid #fff;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.header-input.flex {
     justify-content: space-between;
 }
 
-/* Navbar */
-
-nav div {
-    display: inherit;
-    gap: 30px;
+.header-input button {
+    padding: 16px 25px;
+    font-size: 1.5rem;
+    letter-spacing: .5px;
+    width: 30%;
 }
 
-nav .language {
-    padding: 6px 16px;
-    font-size: 1rem;
-    background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
-    border-radius: 5px;
-}
+.header-content.flex {
+    flex-direction: column;
+}   
