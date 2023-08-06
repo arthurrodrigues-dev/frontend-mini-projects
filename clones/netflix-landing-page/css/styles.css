@@ -82,35 +82,6 @@ nav .language {
     font-size: 1.25rem;
 }
 
-/* Header input */
-
-.header-input {
-    width: 59%;
-}
-
-.header-input input {
-    width: 69%;
-    height: 100%;
-    border-radius: 5px;
-    padding: 0 15px;
-    background-color: var(--input-background);
-    font-weight: bold;
-    outline: .1px solid #fff;
-    font-size: 1rem;
-    color: #fff;
-}
-
-.header-input.flex {
-    justify-content: space-between;
-}
-
-.header-input button {
-    padding: 16px 25px;
-    font-size: 1.5rem;
-    letter-spacing: .5px;
-    width: 30%;
-}
-
 .header-content.flex {
     flex-direction: column;
 }   
@@ -182,3 +153,47 @@ nav .language {
     font-size: 1.6rem;
 }
 
+/* Frequent questions */
+
+.frequent-questions .container.flex {
+    flex-direction: column;
+}
+
+.frequent-questions h2 {
+    padding: 20px;
+}
+
+.question {
+    margin-bottom: 8px;
+}
+
+.question .question-text {
+    margin-bottom: 2px;
+    padding: 20px;
+    width: 100%;
+    background-color: #333;
+    cursor: pointer;
+}
+
+.question-text i {
+    font-size: 3rem;
+}
+
+.question-text.flex {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.answer {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    background-color: #333;
+    transition: all .3s ease-in-out;
+}
+
+.answer.active {
+    opacity: 1;
+    height: auto;
+    padding: 20px;
+}

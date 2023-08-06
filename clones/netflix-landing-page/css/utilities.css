@@ -20,3 +20,32 @@
     border-radius: 5px;
 }
 
+/* Email input */
+
+.email-input {
+    width: 59%;
+}
+
+.email-input input[type="email"] {
+    width: 69%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 0 15px;
+    background-color: var(--input-background);
+    font-weight: bold;
+    outline: .1px solid #fff;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.email-input.flex {
+    justify-content: space-between;
+}
+
+.email-input button {
+    padding: 16px 25px;
+    font-size: 1.5rem;
+    letter-spacing: .5px;
+    width: 30%;
+    cursor: pointer;
+}
