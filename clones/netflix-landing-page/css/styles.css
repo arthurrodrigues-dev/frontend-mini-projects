@@ -56,11 +56,6 @@ nav .language {
     width: 200px;
 }
 
-.header .container {
-    padding: 20px;
-    height: 100%;
-}
-
 /* Header main content */
 
 .header-content {
@@ -169,11 +164,6 @@ nav .language {
     position: relative;
     border: 3px solid red;
     height: 520px;
-}
-
-.section-1 .container {
-    height: 100%;
-    padding: 20px;
 }
 
 .section-1 .container img {
