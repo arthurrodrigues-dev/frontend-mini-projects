@@ -119,6 +119,11 @@ nav .language {
 
 .section {
     height: 500px;
+    border-bottom: 10px solid #333;
+}
+
+.section img {
+    width: 470px;
 }
 
 /* Section 1 ad */
@@ -162,21 +167,18 @@ nav .language {
 
 .section-1 {
     position: relative;
-    border: 3px solid red;
     height: 520px;
 }
 
-.section-1 .container img {
-    width: 470px;
-}
 
-/* Section 1 main text */
+/* sections text-content */
 
-.section-1 .container .text-content h2 {
+.text-content h2 {
     font-size: 3rem;
     margin-bottom: 10px;
 }
 
-.section-1 .container .text-content p {
+.text-content p {
     font-size: 1.6rem;
 }
+
