@@ -75,15 +75,16 @@ nav .language {
 /* Header text */
 
 .header-content .header-text h1{
-    font-size: 3rem;
+    font-size: clamp(1.75rem, 1rem + 3vw, 3rem);
 }
 
 .header-content .header-text > *:nth-child(2) {
-    font-size: 1.5rem;
+    font-size: clamp(1.25rem, .7rem + 1vw, 1.75rem);
 }
 
 .header-content .header-text > *:nth-child(3) {
-    font-size: 1.25rem;
+    font-size: clamp(1.25rem, .5rem + 1vw, 1.75rem);
+
 }
 
 .header-content.flex {
@@ -241,4 +242,43 @@ nav .language {
 
 .footer nav select {
     margin-top: 20px;
+}
+
+/* tablets */
+
+@media (max-width: 768px) {
+    .container {
+        border: 2px solid red;
+    }
+
+    .email-input.flex,
+    .section-1 .ad.flex {
+        flex-direction: column;
+    }
+
+    .section-1 .ad {
+        top: 0;
+
+    }
+    .section-1 .ad-text {
+        padding: 15px;
+        margin-top: 30px;
+        align-self: flex-start;
+    }
+
+    .section-1 .ad-svg {
+        position: absolute;
+        top: -65px;
+        left: 0;
+    }
+}
+
+/* mobile */
+
+@media (max-width: 500px) {
+
+}
+
+.email-input {
+    border: 2px solid blue;
 }
