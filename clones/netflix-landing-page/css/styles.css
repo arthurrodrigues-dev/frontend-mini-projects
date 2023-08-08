@@ -94,7 +94,7 @@ nav .language {
 /* Sections */
 
 .section {
-    height: 500px;
+    padding: 100px;
     border-bottom: 10px solid #333;
 }
 
@@ -114,6 +114,7 @@ nav .language {
     transform: translateX(-50%);
     background: radial-gradient(circle, hsla(346, 78%, 30%, 1) 17%, hsla(286, 49%, 18%, 1) 48%, hsla(228, 71%, 17%, 1) 61%, hsla(228, 73%, 12%, 1) 73%, hsla(228, 81%, 8%, 1) 83%);
     line-height: 1.9;
+    border-radius: 5px;
 }
 
 /* Section 1 ad text */
@@ -143,7 +144,6 @@ nav .language {
 
 .section-1 {
     position: relative;
-    height: 520px;
 }
 
 
@@ -248,28 +248,38 @@ nav .language {
 
 @media (max-width: 768px) {
     .container {
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
 
     .email-input.flex,
-    .section-1 .ad.flex {
+    .section-1 .ad.flex,
+    .section .flex {
         flex-direction: column;
+    }
+
+    .section {
+
+    }
+
+    .section-1 .container {
+        margin-top: 100px;
     }
 
     .section-1 .ad {
         top: 0;
-
+        padding: 10px;
+        height: auto;
     }
     .section-1 .ad-text {
-        padding: 15px;
-        margin-top: 30px;
+        padding: 20px;
+        margin-top: 15px;
         align-self: flex-start;
     }
 
     .section-1 .ad-svg {
         position: absolute;
         top: -65px;
-        left: 0;
+        left: 50px;
     }
 }
 
@@ -279,6 +289,6 @@ nav .language {
 
 }
 
-.email-input {
-    border: 2px solid blue;
+.section {
+    border: 2px solid magenta;
 }
