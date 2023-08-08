@@ -56,8 +56,8 @@ nav .language {
     position: relative;
 }
 
-.header img {
-    width: 200px;
+.header .logo {
+    width: 150px;
 }
 
 /* Header main content */
@@ -94,7 +94,7 @@ nav .language {
 /* Sections */
 
 .section {
-    padding: 100px;
+    padding: 30px;
     border-bottom: 10px solid #333;
 }
 
@@ -249,6 +249,10 @@ nav .language {
         /* border: 2px solid red; */
     }
 
+    .section img {
+        width: 100%;
+    }
+
     .email-input.flex,
     .section .container.flex{
         flex-direction: column;
@@ -265,12 +269,16 @@ nav .language {
     }
 
     .section-1 .container {
-        margin-top: 150px;
+        margin-top: 200px;
     }
 
     .section-1 .ad {
         top: 0;
         padding: 10px;
+    }
+
+    .header .logo {
+        width: 100px;
     }
 }
 
@@ -298,8 +306,4 @@ nav .language {
         top: -65px;
         left: 50px;
     }
-}
-
-.section {
-    border: 2px solid magenta;
 }
