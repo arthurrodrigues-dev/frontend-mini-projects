@@ -12,6 +12,11 @@
     align-items: center;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .btn {
     padding: 6px 16px;
     background-color: var(--btn-background);
@@ -28,7 +33,7 @@
 
 .email-input input[type="email"] {
     width: 69%;
-    height: 100%;
+    height: 60px;
     border-radius: 5px;
     padding: 0 15px;
     background-color: var(--input-background);
