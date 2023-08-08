@@ -144,12 +144,12 @@ nav .language {
 
 /* sections text-content */
 
-.text-content h2 {
+.section-text h2 {
     font-size: 3rem;
     margin-bottom: 10px;
 }
 
-.text-content p {
+.section-text p {
     font-size: 1.6rem;
 }
 
