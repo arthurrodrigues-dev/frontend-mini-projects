@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Netflix sans', sans-serif;
+}
+
+:root {
+    --btn-background: #E50914;
+    --more-color: #6c71ff;
+    --input-background: #171717c3;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+}
+
+ul li {
+    list-style-type: none;
+}

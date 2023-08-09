@@ -1,0 +1,63 @@
+
+.section {
+    padding: 30px;
+    border-bottom: 10px solid #333;
+}
+
+.section img {
+    width: 470px;
+}
+
+/* Section 1 ad */
+
+.section-1 .ad {
+    width: 90%;
+    height: 140px;
+    position: absolute;
+    top: -65px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    background: radial-gradient(circle, hsla(346, 78%, 30%, 1) 17%, hsla(286, 49%, 18%, 1) 48%, hsla(228, 71%, 17%, 1) 61%, hsla(228, 73%, 12%, 1) 73%, hsla(228, 81%, 8%, 1) 83%);
+    line-height: 1.9;
+    border-radius: 8px;
+}
+
+/* Section 1 ad text */
+
+.ad .ad-text {
+    padding: 30px;
+}
+
+.ad-text h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* Section 1 ad more */
+
+.ad-text .ad-more button {
+    padding: 5px 20px 5px 0;
+    font-size: 1.1rem;
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--more-color);
+    text-decoration: underline;
+}
+
+/* Section 1 */
+
+.section-1 {
+    position: relative;
+}
+
+/* sections text-content */
+
+.section-text h2 {
+    font-size: clamp(1rem, 1rem + 2vw, 3rem);
+    margin-bottom: 10px;
+}
+
+.section-text p {
+    font-size: clamp(1rem, .7rem + 1vw, 2rem);
+}

@@ -1,0 +1,59 @@
+.frequent-questions {
+    border-bottom: 10px solid #333;
+}
+
+.frequent-questions .container.flex {
+    flex-direction: column;
+}
+ 
+.frequent-questions .container > p {
+    padding: 20px;
+    font-size: 1.4rem;
+}
+
+.frequent-questions h2 {
+    font-size: 3rem;
+    padding: 20px;
+}
+
+/* Questions */
+
+.question {
+    margin-bottom: 8px;
+}
+
+.question .question-text {
+    margin-bottom: 2px;
+    padding: 20px;
+    width: 100%;
+    background-color: #333;
+    cursor: pointer;
+}
+
+.question-text p,
+.answer {
+    font-size: 1.6rem;
+}
+
+.question-text i {
+    font-size: 3rem;
+}
+
+.question-text.flex {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.answer {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    background-color: #333;
+    transition: all .3s ease;
+}
+
+.answer.active {
+    opacity: 1;
+    height: auto;
+    padding: 20px;
+}
