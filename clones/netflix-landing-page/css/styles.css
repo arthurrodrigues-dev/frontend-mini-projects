@@ -89,6 +89,7 @@ nav .language {
 
 .header-content.flex {
     flex-direction: column;
+    gap: 5px;
 }   
 
 /* Sections */
@@ -245,6 +246,19 @@ nav .language {
 /* tablets */
 
 @media (max-width: 960px) {
+
+    .header {
+        height: auto;
+    }
+
+    .header-content .header-text {
+        margin-top: 50px;
+    }
+
+    .header-content .header-text h1 {
+        line-height: 1.3;
+    }
+
     .container {
         /* border: 2px solid red; */
     }
@@ -256,6 +270,10 @@ nav .language {
     .email-input.flex,
     .section .container.flex{
         flex-direction: column;
+    }
+
+    .email-input.flex {
+        gap: 15px;
     }
 
     .section-2 .container.flex,
@@ -279,6 +297,10 @@ nav .language {
 
     .header .logo {
         width: 100px;
+    }
+
+    .footer-links.grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
