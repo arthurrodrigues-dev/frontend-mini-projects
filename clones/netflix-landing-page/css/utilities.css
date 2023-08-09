@@ -32,7 +32,7 @@
     gap: 5px;
 }
 
-.email-input input{
+.email-input input {
     max-width: 420px;
     width: 100%;
     min-height: 55px;
@@ -46,6 +46,9 @@
     color: #fff;
 }
 
+.email-input input:focus {
+    outline: 1px solid #fff;
+}
 
 .email-input button {
     padding: 10px 15px;
