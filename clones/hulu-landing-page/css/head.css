@@ -4,7 +4,7 @@
 }
 
 .head .container {
-    max-width: 95%;
+    max-width: 98%;
     margin: 0 auto;
     position: relative;
     z-index: 2;
@@ -13,13 +13,21 @@
 /* Navbar */
 
 header .navbar {
-    padding: 30px;
-}
-
-header .navbar .logo {
-    width: 75px;
+    padding: 27px;
 }
 
 .navbar.flex {
     justify-content: space-between;
+}
+
+.navbar .logo {
+    width: 60px;
+}
+
+.navbar button {
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
 }
