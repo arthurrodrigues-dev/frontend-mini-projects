@@ -1,27 +1,13 @@
 .head {
-    border: 2px solid magenta;
     position: relative;
-}
-
-.head .background-video {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    border: 5px solid lightcoral;
-}
-
-.head .background-video video {
-    height: inherit;
-    width: inherit;
-    object-fit: cover;
+    min-height: 110vh;
 }
 
 .head .container {
-    min-height: 110vh;
     max-width: 95%;
     margin: 0 auto;
-    position: absolute;
-    z-index: 1;
+    position: relative;
+    z-index: 2;
 }
 
 /* Navbar */
