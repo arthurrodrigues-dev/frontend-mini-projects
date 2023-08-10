@@ -1,6 +1,6 @@
 .head {
     position: relative;
-    min-height: 110vh;
+    min-height: 105vh;
 }
 
 .head .container {
@@ -8,13 +8,11 @@
     margin: 0 auto;
     position: relative;
     z-index: 2;
+    min-height: 105vh;
+    padding: 27px;
 }
 
 /* Navbar */
-
-header .navbar {
-    padding: 27px;
-}
 
 .navbar.flex {
     justify-content: space-between;
@@ -31,3 +29,57 @@ header .navbar {
     font-size: 1rem;
     font-weight: bold;
 }
+
+/* promos */
+
+.promos {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid mediumseagreen;
+    text-align: center;
+    width: 90%;
+}
+
+.promos.flex {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+/* promo */
+
+.promo.flex {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.promo .logo {
+    width: 200px;
+}
+
+/* promos text */
+
+.promo .p-primary {
+    color: var(--hulu-color);
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.promo .p-secondary {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.promo button {
+    padding: 10px 100px;
+    background-color: var(--hulu-color);
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.promo-trio-basic .logo {
+    width: 250px;
+}
+
