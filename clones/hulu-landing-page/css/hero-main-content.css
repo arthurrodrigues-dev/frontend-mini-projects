@@ -1,7 +1,7 @@
 /* promos */
 
-.promos .container .grid{
-    grid-template-rows: 1fr;
+.promos .grid {
+    grid-template-rows: repeat(2, 1fr);
 }
 
 /* promo */
@@ -33,10 +33,6 @@
 
 .promo-trio-basic .logo {
     width: 250px;
-}
-
-.promos {
-    border: 2px solid yellow;
 }
 
 .promos .container {
