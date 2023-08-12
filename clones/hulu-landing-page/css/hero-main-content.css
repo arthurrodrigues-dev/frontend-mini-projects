@@ -9,7 +9,7 @@
 }
 
 .promos .grid {
-    grid-gap: 2rem;
+    /* grid-gap: 2rem; */
 }
 
 /* promo */
@@ -19,6 +19,7 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    margin-right: 20px;
 }
 
 .promo .logo {
@@ -50,6 +51,18 @@
     width: 250px;
 }
 
-.promos .container {
-    border: 2px solid lightcoral;
+/* Links */
+
+.promos-links {
+    padding: 20px;
+    grid-column: 1 / span 2;
+}
+
+.promos-links ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.promos-links ul li a {
+    color: #fff;
 }
