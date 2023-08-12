@@ -2,14 +2,9 @@
 
 .promos .container {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 0;
+    top: 60%;
+    transform: translateY(-55%);
     width: fit-content;
-}
-
-.promos .grid {
-    /* grid-gap: 2rem; */
 }
 
 /* promo */
@@ -18,8 +13,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     margin-right: 20px;
+    min-width: 300px;
 }
 
 .promo .logo {
@@ -37,14 +33,16 @@
 .promo .p-secondary {
     font-size: 1.5rem;
     font-weight: 600;
+    text-align: center;
 }
 
 .promo button {
-    padding: 10px 100px;
+    padding: 12px;
+    width: 100%;
     background-color: var(--hulu-color);
     border-radius: 3px;
     font-weight: 600;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 .promo-trio-basic .logo {
@@ -61,6 +59,10 @@
 .promos-links ul {
     list-style-type: none;
     text-align: center;
+}
+
+.promos-links ul > *:nth-child(1) {
+    margin-bottom: 30px;
 }
 
 .promos-links ul li a {
