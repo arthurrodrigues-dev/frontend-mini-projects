@@ -1,26 +1,10 @@
 /* promos */
 
-/* .promos {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    border: 1px solid mediumseagreen;
-    text-align: center;
-    width: 90%;
+.promos .container .grid{
+    grid-template-rows: 1fr;
 }
 
-.promos.flex {
-    justify-content: flex-start;
-    align-items: center;
-    gap: 30px;
-} */
-
 /* promo */
-/* 
-.promo.flex {
-    flex-direction: column;
-    gap: 20px;
-} */
 
 .promo .logo {
     width: 200px;
@@ -51,10 +35,10 @@
     width: 250px;
 }
 
-.container {
-    border: 2px solid lightcoral;
-}
-
 .promos {
     border: 2px solid yellow;
+}
+
+.promos .container {
+    border: 2px solid lightcoral;
 }
