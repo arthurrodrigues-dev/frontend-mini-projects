@@ -11,6 +11,13 @@
 
 :root {
     --hulu-color: #1CE783;
+    --small-words: #949E9F;
+}
+
+:root {
+    --h1-font-size: 3rem;
+    --normal-text: 1rem;
+    --small-words-font-size: 9px;
 }
 
 html, 
@@ -27,7 +34,3 @@ img {
     width: 100%;
 }
 
-.hero {
-    position: relative;
-    min-height: 110vh;
-}

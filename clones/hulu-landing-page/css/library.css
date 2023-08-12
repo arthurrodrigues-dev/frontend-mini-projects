@@ -4,10 +4,11 @@
     padding: 100px 100px 50px 100px;
     line-height: 1.8;
     text-align: center;
+    font-size: var(--normal-text);
 }
 
 .top-text h1 {
-    font-size: 3rem;
+    font-size: var(--h1-font-size);
     font-weight: 500;
 }
 
@@ -58,4 +59,14 @@
 
 .card:hover img {
     opacity: .5;
+}
+
+/* small words */
+
+.small-words {
+    color: var(--small-words);
+    font-size: var(--small-words-font-size);
+    text-align: right;
+    margin-right: 50px;
+    letter-spacing: 1px;
 }

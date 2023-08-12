@@ -1,3 +1,8 @@
+.hero {
+    position: relative;
+    min-height: 110vh;
+}
+
 .hero .background-video,
 .hero .background-video video,
 .hero::before {
