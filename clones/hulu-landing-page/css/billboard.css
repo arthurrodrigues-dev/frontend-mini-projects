@@ -1,5 +1,5 @@
 .billboard {
-    padding: 200px 0;
+    padding: 150px 0 75px 0;
 }
 
 .billboard .container{
@@ -42,6 +42,6 @@
 
 @keyframes button-animation {
     to {
-        transform: translateY(50%);
+        transform: translateY(30%);
     }
 }
