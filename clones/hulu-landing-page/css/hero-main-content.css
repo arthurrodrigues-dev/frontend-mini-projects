@@ -68,3 +68,24 @@
 .promos-links ul li a {
     color: #fff;
 }
+
+/* Pause button */
+
+.pause-btn {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #363636;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.633);
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.pause-btn [class="bx bxs-right-arrow"] {
+    font-size: 1rem;
+}
