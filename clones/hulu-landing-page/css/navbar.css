@@ -1,8 +1,3 @@
-.head {
-    position: relative;
-    min-height: 105vh;
-}
-
 .navbar .container {
     border: 2px solid red;
     max-width: 98%;
@@ -11,8 +6,6 @@
     z-index: 2;
     padding: 27px;
 }
-
-/* Navbar */
 
 .navbar .flex {
     justify-content: space-between;
@@ -30,63 +23,3 @@
     font-weight: bold;
 }
 
-/* promos */
-
-/* .promos {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    border: 1px solid mediumseagreen;
-    text-align: center;
-    width: 90%;
-}
-
-.promos.flex {
-    justify-content: flex-start;
-    align-items: center;
-    gap: 30px;
-} */
-
-/* promo */
-/* 
-.promo.flex {
-    flex-direction: column;
-    gap: 20px;
-} */
-
-.promo .logo {
-    width: 200px;
-}
-
-/* promos text */
-
-.promo .p-primary {
-    color: var(--hulu-color);
-    font-weight: 700;
-    font-size: .8rem;
-}
-
-.promo .p-secondary {
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
-.promo button {
-    padding: 10px 100px;
-    background-color: var(--hulu-color);
-    border-radius: 3px;
-    font-weight: 600;
-    font-size: .8rem;
-}
-
-.promo-trio-basic .logo {
-    width: 250px;
-}
-
-.container {
-    border: 2px solid lightcoral;
-}
-
-.promos {
-    border: 2px solid yellow;
-}

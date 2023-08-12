@@ -1,24 +1,24 @@
-.head .background-video,
-.head .background-video video,
-.head::before {
+.hero .background-video,
+.hero .background-video video,
+.hero::before {
     width: 100%;
     height: 100%;
 }
 
 /* Background video */
 
-.head .background-video {
+.hero .background-video {
     position: absolute;
     z-index: -1;
 }
 
-.head .background-video video {
+.hero .background-video video {
     object-fit: cover;
 }
 
 /* Background gradient */
 
-.head::before {
+.hero::before {
     content: "";
     position: absolute;
     top: 0;
