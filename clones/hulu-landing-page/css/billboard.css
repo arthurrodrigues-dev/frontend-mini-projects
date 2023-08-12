@@ -1,0 +1,47 @@
+.billboard {
+    padding: 200px 0;
+}
+
+.billboard .container{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 60%;
+}
+
+.billboard .container > *:nth-child(3) {
+    font-size: 1.15rem;
+    line-height: 1.6;
+}
+
+.billboard .container button {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: transparent;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.billboard .flex {
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* billboard button */
+
+.next-section {
+    animation: button-animation 1s infinite alternate;
+    cursor: pointer;
+}
+
+.next-section i {
+    font-size: 2rem;
+}
+
+/* button animation */
+
+@keyframes button-animation {
+    to {
+        transform: translateY(50%);
+    }
+}

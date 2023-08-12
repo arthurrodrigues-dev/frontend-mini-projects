@@ -16,9 +16,21 @@
     padding: 27px;
 }
 
+h1 {
+    font-size: var(--h1-font-size);
+    font-weight: 500;
+}
+
 .p-primary {
     color: var(--hulu-color);
     font-weight: 500;
     font-size: .8rem;
+    letter-spacing: 1px;
+}
+
+.small-words {
+    color: var(--small-words);
+    font-size: var(--small-words-font-size);
+    margin-right: 50px;
     letter-spacing: 1px;
 }
