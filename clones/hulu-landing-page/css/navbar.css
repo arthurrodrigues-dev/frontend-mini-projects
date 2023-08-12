@@ -3,18 +3,18 @@
     min-height: 105vh;
 }
 
-.head .container {
+.navbar .container {
+    border: 2px solid red;
     max-width: 98%;
     margin: 0 auto;
     position: relative;
     z-index: 2;
-    min-height: 105vh;
     padding: 27px;
 }
 
 /* Navbar */
 
-.navbar.flex {
+.navbar .flex {
     justify-content: space-between;
 }
 
@@ -32,7 +32,7 @@
 
 /* promos */
 
-.promos {
+/* .promos {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -45,14 +45,14 @@
     justify-content: flex-start;
     align-items: center;
     gap: 30px;
-}
+} */
 
 /* promo */
-
+/* 
 .promo.flex {
     flex-direction: column;
     gap: 20px;
-}
+} */
 
 .promo .logo {
     width: 200px;
@@ -83,3 +83,10 @@
     width: 250px;
 }
 
+.container {
+    border: 2px solid lightcoral;
+}
+
+.promos {
+    border: 2px solid yellow;
+}
