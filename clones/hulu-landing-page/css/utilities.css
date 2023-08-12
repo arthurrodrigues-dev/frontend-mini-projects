@@ -9,15 +9,16 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-.hero .container {
+.container {
     max-width: 98%;
     width: 100%;
-    position: relative;
-    z-index: 2;
     margin: 0 auto;
     padding: 27px;
 }
 
-/* .p-primary {
-
-} */
+.p-primary {
+    color: var(--hulu-color);
+    font-weight: 500;
+    font-size: .8rem;
+    letter-spacing: 1px;
+}

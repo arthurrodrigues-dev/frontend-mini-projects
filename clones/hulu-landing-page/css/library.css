@@ -1,0 +1,41 @@
+/* top text */
+
+.top-text {
+    padding: 100px 100px 50px 100px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.top-text h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+/* library */
+
+.card {
+    min-height: 450px;
+    position: relative;
+}
+
+.card img {
+    opacity: .6;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cards .grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+
+/* background images */
+
+.card-text {
+    position: absolute;
+    top: 0;
+    padding: 20px;
+}
