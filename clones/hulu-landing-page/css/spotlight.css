@@ -1,0 +1,52 @@
+/* spotlight content */
+
+.spotlight .spotlight-content {
+    position: relative;
+    color: #fff;
+}
+
+.spotlight-content .btns {
+    position: absolute;
+    top: 30%;
+    left: 100px;
+}
+
+.spotlight-content .btns button {
+    background-color: transparent;
+    color: #fff;
+
+}
+
+.spotlight-content .spotlight-background {
+    opacity: .5;
+}
+
+/* live-sports, breaking news, biggest events */
+
+.live-sports .live-sports-content {
+    position: absolute;
+    top: 40%;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+/* icons */
+
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons .icon {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
