@@ -1,6 +1,10 @@
-/* spotlight content */
+/* spotlight */
 
-.spotlight .spotlight-content {
+.spotlight .spotlight-background {
+    opacity: .5;
+}
+
+.spotlight {
     position: relative;
     color: #fff;
 }
@@ -8,33 +12,43 @@
 .spotlight-content .btns {
     position: absolute;
     top: 30%;
-    left: 100px;
+    left: 150px;
+    display: flex;
+    gap: 15px;
 }
 
-.spotlight-content .btns button {
+.btns .btn button {
     background-color: transparent;
+    color: var(--small-words);
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.btns .btn.btn-active button{
     color: #fff;
-
 }
 
-.spotlight-content .spotlight-background {
-    opacity: .5;
+.btns .btn.btn-active {
+    border-bottom: 5px solid #fff;
 }
+
 
 /* live-sports, breaking news, biggest events */
 
 .live-sports .live-sports-content {
     position: absolute;
     top: 40%;
-    left: 100px;
+    left: 150px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
 }
 
 
 /* icons */
-
 
 .icons {
     display: flex;
