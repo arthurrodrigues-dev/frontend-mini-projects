@@ -2,10 +2,6 @@
 
 <h1>Preview</h1>
 
-<div>
-  
-</div>
-
 <h1>About</h1>
 <p>This project is being done in order to improve my css skills</p>
 
