@@ -38,7 +38,9 @@
 
 /* live-sports, breaking news, biggest events */
 
-.live-sports .live-sports-content {
+.live-sports .live-sports-content,
+.breaking-news .breaking-news-content,
+.biggest-events .biggest-events-content  {
     position: absolute;
     top: 40%;
     left: 150px;

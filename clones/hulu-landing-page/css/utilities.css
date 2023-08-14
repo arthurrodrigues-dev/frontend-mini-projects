@@ -34,3 +34,7 @@ h1 {
     margin-right: 50px;
     letter-spacing: 1px;
 }
+
+.inactive {
+    display: none;
+}
