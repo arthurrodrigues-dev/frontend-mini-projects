@@ -1,0 +1,18 @@
+.plans .container {
+    max-width: 1000px;
+    width: 100%;
+}
+
+/* plan top text */
+
+.plan-top-text {
+    text-align: center;
+    padding: 50px;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #949E9F;
+}
+
+.plan-top-text strong {
+    font-weight: bold;
+}
