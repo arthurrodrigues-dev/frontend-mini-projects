@@ -6,13 +6,34 @@ const buttons = spotlightContent.querySelectorAll('button');
 
 buttons.forEach(button => {
     button.addEventListener('click', () => {
-        removeClasses(divButtons, 'btn-active');
-        button.parentElement.classList.add('btn-active');
+        const buttonDiv = button.parentElement;
+        const buttonId = button.getAttribute('id');
+        styleButton(buttonDiv)
+
+        spotlightDivsContent
+            .filter(div => div.classList[0] !== buttonId)
+            .forEach(div => {
+                if (!div.classList.contains('inactive')) div.classList.add('inactive')
+            })
+        
+        spotlightDivsContent.filter(div => div.classList[0] === buttonId)[0].classList.remove('inactive');
     })
 })
 
+
 function removeClasses(array, classe) {
-    array.forEach(element => {
-        element.classList.remove(classe);
-    })
+    array.forEach(element => element.classList.remove(classe))
+}
+
+function addClasses(array, classe) {
+    array.forEach(element => element.classList.add(classe))
+}
+
+function addClass(element, classe) {
+    element.classList.add(classe);
+}
+
+function styleButton(button) {
+    removeClasses(divButtons, 'btn-active');
+    addClass(button, 'btn-active');
 }
