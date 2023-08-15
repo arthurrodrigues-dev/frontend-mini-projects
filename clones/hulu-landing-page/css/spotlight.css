@@ -1,5 +1,9 @@
 /* spotlight */
 
+.spotlight {
+    min-height: 110vh;
+}
+
 .spotlight .spotlight-background {
     opacity: .5;
 }
@@ -47,9 +51,8 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    animation: slideInFromBottom 1s ease;
+    animation: slideInFromBottom .3s ease;
 }
-
 
 /* icons */
 

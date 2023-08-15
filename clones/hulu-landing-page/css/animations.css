@@ -1,6 +1,6 @@
 @keyframes slideInFromBottom {
     from {
-        transform: translateY(100%);
+        transform: translateY(30%);
     }
 
 }
