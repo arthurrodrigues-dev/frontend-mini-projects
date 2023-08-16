@@ -1,6 +1,5 @@
 .plans .container {
-    max-width: 1000px;
-    width: 100%;
+    max-width: 1100px;
 }
 
 /* plan top text */
@@ -15,4 +14,20 @@
 
 .plan-top-text strong {
     font-weight: bold;
+}
+
+/* plan header */
+
+.btn-container {
+    margin-top: 20px;
+    border: 2px solid red;
+    display: flex;
+}
+
+.base-plans img {
+    width: 2rem;
+}
+
+.bundle-save-plan {
+    width: 10rem;
 }
