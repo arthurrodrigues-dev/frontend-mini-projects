@@ -18,7 +18,7 @@
 
 /* plan header */
 
-.btn-container {
+.switch-container {
     margin-top: 20px;
     border: 2px solid red;
     display: flex;
@@ -30,4 +30,40 @@
 
 .bundle-save-plan {
     width: 10rem;
+}
+
+/* toggle button */
+
+.change-plan-btn #check {
+    display: none;
+}
+
+.change-plan-btn .switch {
+    position: relative;
+    background-color: #777;
+    width: 120px;
+    height: 60px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.change-plan-btn .slider {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: all .5s ease-in-out;
+}
+
+#check:checked ~ .switch {
+    background-color: blueviolet;
+}
+
+#check:checked ~ .switch .slider {
+    transform: translateX(60px);
 }
