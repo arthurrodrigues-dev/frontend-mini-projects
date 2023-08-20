@@ -40,13 +40,12 @@
 
 .change-plan-btn .switch {
     position: relative;
-    background-color: #777;
-    width: 60px;
+    background-color: #424957;
+    width: 57px;
     height: 30px;
     border-radius: 40px;
     display: flex;
     align-items: center;
-    transition: all .5s ease-in-out;
     cursor: pointer;
 }
 
@@ -56,7 +55,6 @@
     border-radius: 50%;
     width: 32px;
     height: 32px;
-    /* transition: all .5s ease-in-out; */
 }
 
 #check:checked ~ .switch {
