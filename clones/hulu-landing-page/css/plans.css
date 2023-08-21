@@ -22,6 +22,14 @@
     margin-top: 20px;
     border: 2px solid red;
     display: flex;
+    gap: 10px;
+    padding: 50px;
+    font-size: 1rem;
+}
+
+.base-plans .hulu-logo {
+    margin-top: 15px;
+    text-align: center;
 }
 
 .base-plans img {
