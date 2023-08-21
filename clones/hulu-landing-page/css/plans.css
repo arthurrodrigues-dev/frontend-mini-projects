@@ -1,3 +1,7 @@
+.plans {
+    height: 200vh;
+}
+
 .plans .container {
     max-width: 1100px;
 }
