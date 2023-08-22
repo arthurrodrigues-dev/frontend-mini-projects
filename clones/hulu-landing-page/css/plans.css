@@ -46,7 +46,28 @@
 .free-trial {
     padding: 50px;
     gap: 30px;
+    border: 2px solid red;
 }
+
+/* .free-trial > * button {
+    padding: 5px 25px;
+} */
+
+.w-ads {
+    border: 2px solid green;
+}
+
+.w-ads .most-popular {
+    background-color: var(--hulu-color);
+    color: #000;
+    padding: 10px 22px;
+    font-size: .7rem;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 50px;
+}
+
+
 
 /* toggle button */
 
