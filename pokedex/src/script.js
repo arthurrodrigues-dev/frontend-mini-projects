@@ -35,12 +35,12 @@ async function createCards() {
             <div class="pokemon-stats">
                 <div class="weight">
                     <p>Weight</p>
-                    <span>${weight}kg</span>
+                    <span>${weight / 10}kg</span>
                 </div>
     
                 <div class="height">
                     <p>Height</p>
-                    <span>${height}m</span>
+                    <span>${height / 10}m</span>
                 </div>
             </div>
             <p>Type: <span class="type">${types.length > 1? types[0].type.name + "/" + types[1].type.name : types[0].type.name}</span></p>
