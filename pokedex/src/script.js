@@ -1,7 +1,7 @@
 const _container = document.querySelector('.container');
 
 async function getData() {
-    const URL = "https://pokeapi.co/api/v2/pokemon?limit=15&offset=0";
+    const URL = "https://pokeapi.co/api/v2/pokemon?limit=50&offset=0";
     const response = await fetch(URL);
     const data = await response.json();
 
