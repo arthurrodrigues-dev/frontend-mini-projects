@@ -8,42 +8,37 @@ async function getData() {
     return Array.from(data.results);
 }
 
-async function getPokemonData(url) {
-    const response = await fetch(url);
-    const data = await response.json();
-
-    return data;
-}
-
 async function createCards() {
     const pokemonsData = await getData();
+    const urls = pokemonsData.map((data) => data.url)
 
-    pokemonsData.forEach(async (pokemon, index) => {
-        const {id, name, weight, height, types, sprites} = await getPokemonData(pokemonsData[index].url);
+    const responses = await Promise.all(urls.map((url) => fetch(url)));
+    const pokemons = await Promise.all(responses.map((response) => response.json()))
 
-        const card = document.createElement('div')
+    pokemons.forEach((pokemon) => {
+        const card = document.createElement('div');
         card.classList.add('card')
         card.innerHTML = `
-            <span class="pokemon-id">#${id}</span>
-    
+            <span class="pokemon-id">#${pokemon.id}</span>
+
             <div class="pokemon-img">
-                <img src="${sprites.other["official-artwork"]["front_default"]}" alt="Pokémon Image">
+                <img src="${pokemon.sprites.other["official-artwork"]["front_default"]}" alt="Pokémon Image">
             </div>
-    
-            <span class="pokemon-name">${name}</span>
-    
+
+            <span class="pokemon-name">${pokemon.name}</span>
+
             <div class="pokemon-stats">
                 <div class="weight">
                     <p>Weight</p>
-                    <span>${weight / 10}kg</span>
+                    <span>${pokemon.weight / 10}kg</span>
                 </div>
-    
+
                 <div class="height">
                     <p>Height</p>
-                    <span>${height / 10}m</span>
+                    <span>${pokemon.height / 10}m</span>
                 </div>
             </div>
-            <p>Type: <span class="type">${types.length > 1? types[0].type.name + "/" + types[1].type.name : types[0].type.name}</span></p>
+            <p>Type: <span class="type">${pokemon.types.length > 1? pokemon.types[0].type.name + "/" + pokemon.types[1].type.name : pokemon.types[0].type.name}</span></p>
         `;
 
         _container.appendChild(card);
