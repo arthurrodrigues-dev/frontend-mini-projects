@@ -97,8 +97,8 @@ header .img-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    /* border: 2px solid green; */
+    border: 2px solid #000;
+    border-radius: 30px;
 }
 
 .filter input {
@@ -106,6 +106,7 @@ header .img-container {
     border-radius: 30px;
     padding: 5px;
     outline: none;
+    border: none;
 }
 
 .filter img {
