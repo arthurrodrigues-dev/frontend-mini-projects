@@ -97,6 +97,7 @@ header .img-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     /* border: 2px solid green; */
 }
 
@@ -109,4 +110,5 @@ header .img-container {
 
 .filter img {
     width: 35px;
+    cursor: pointer;
 }
