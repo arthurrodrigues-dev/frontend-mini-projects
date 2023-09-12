@@ -47,7 +47,8 @@ header .img-container {
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-
+    max-height: 100vh;
+    overflow: auto;
 }
 
 .container .card {
@@ -85,4 +86,27 @@ header .img-container {
 
 .type {
     text-transform: capitalize;
+}
+
+.filter-container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.filter-container .filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+
+.filter input {
+    flex: 1;
+    border-radius: 30px;
+    padding: 5px;
+    outline: none;
+}
+
+.filter img {
+    width: 35px;
 }
